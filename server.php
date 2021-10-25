@@ -2,7 +2,7 @@
 session_start();
 $username = "";
 $email    = "";
-$db = mysqli_connect('localhost', 'phpmyadmin', '900963986', 'networkinventory');
+$db = mysqli_connect('localhost', 'phpmyadmin', '___PASSWORD___', '___DB-NAME__');
 
 // login
 if (isset($_POST['login_user'])) {
